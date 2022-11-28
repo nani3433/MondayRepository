@@ -1,0 +1,9 @@
+{
+	"name": "MondayJithubdatafactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "89a421af-8ff2-448e-b17d-585a0f0abd72",
+		"tenantId": "1276dcff-9084-47f8-b4f9-87398fa6c7b8"
+	}
+}
