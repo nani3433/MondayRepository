@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "abcd.txt",
 				"folderPath": "output",
 				"container": "nithinnovcontainer"
 			},
