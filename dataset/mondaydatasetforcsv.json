@@ -1,0 +1,41 @@
+{
+	"name": "mondaydatasetforcsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice for jithub datafactory",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Employee.csv",
+				"folderPath": "input",
+				"container": "nithinnovcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "emp_no",
+				"type": "String"
+			},
+			{
+				"name": "emp_name",
+				"type": "String"
+			},
+			{
+				"name": "emp_salary",
+				"type": "String"
+			},
+			{
+				"name": "emp_dep",
+				"type": "String"
+			}
+		]
+	}
+}
