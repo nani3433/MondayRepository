@@ -1,0 +1,23 @@
+{
+	"name": "mondaydatasetcsvoutput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice for jithub datafactory",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "nithinnovcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
